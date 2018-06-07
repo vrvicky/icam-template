@@ -1,0 +1,14 @@
+{
+   "name": "camproject5",
+   "description": "Description for camproject5.",
+   "type": "userCreated",
+   "manifest": {
+     "template_type": "Terraform",
+     "template_format": "HCL",
+     "template_provider": "Amazon EC2"
+   },
+   "metadata": {
+     "displayName": "camproject5",
+     "bullets": []
+   }
+ }
