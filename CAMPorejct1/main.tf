@@ -1,23 +1,22 @@
 #####################################################################
 ##
-##      Created 8/1/18 by admin. for CAMPorejct1
+##      Created 5/8/18 by ucdpadmin. for CAMProject1
 ##
 #####################################################################
 
-## REFERENCE {"default-vpc":{"type": "aws_reference_network"}}
+## REFERENCE {"default-vpc1":{"type": "aws_reference_network"}}
 
 terraform {
   required_version = "> 0.8.0"
 }
 
 provider "aws" {
- 
+  
   version = "~> 1.8"
 }
 
-
 data "aws_subnet" "subnet" {
-  vpc_id = "${var.vpc_id}"
+  vpc_id = "${var.vpc_id}"  # Generated
   availability_zone = "${var.availability_zone}"  # Generated
 }
 

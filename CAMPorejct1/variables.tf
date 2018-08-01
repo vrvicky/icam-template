@@ -1,9 +1,8 @@
 #####################################################################
 ##
-##      Created 8/1/18 by admin. for CAMPorejct1
+##      Created 5/8/18 by ucdpadmin. for CAMProject1
 ##
 #####################################################################
-
 
 
 variable "web-server_ami" {
@@ -35,6 +34,4 @@ variable "group_name" {
   type = "string"
   description = "Generated"
 }
-
-
 

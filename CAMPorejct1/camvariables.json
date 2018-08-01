@@ -4,25 +4,18 @@
   "output_namespace": "",
   "input_groups": [
     {
+      "name": "Globals",
+      "label": "Globals"
+    },
+    {
       "name": "Instances-aws_instance.web-server",
       "label": "Instances - aws_instance.web-server"
     },
     {
-      "name": "Other-aws",
-      "label": "Other - aws"
-    },
-    {
-      "name": "instances",
-      "label": "Instances"
-    },
-    {
-      "name": "aws_instance_networks",
-      "label": "aws_instance Networks"
-    },
-    {
-      "name": "security",
+      "name": "Security",
       "label": "Security"
     }
+   
   ],
   "output_groups": [ ],
   "template_input_params": [
@@ -33,7 +26,7 @@
       "type": "string",
       "default": "",
       "validation": "",
-      "group_name": "instances",
+      "group_name": "Instances-aws_instance.web-server",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -47,7 +40,7 @@
       "type": "string",
       "default": "",
       "validation": "",
-      "group_name": "instances",
+      "group_name": "Instances-aws_instance.web-server",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -61,7 +54,7 @@
       "type": "string",
       "default": "",
       "validation": "",
-      "group_name": "instances",
+      "group_name": "Globals",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -75,7 +68,7 @@
       "type": "string",
       "default": "",
       "validation": "",
-      "group_name": "instances",
+      "group_name": "Instances-aws_instance.web-server",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -89,7 +82,7 @@
       "type": "string",
       "default": "",
       "validation": "",
-      "group_name": "",
+      "group_name": "Globals",
       "required": true,
       "secured": false,
       "hidden": false,
@@ -103,13 +96,14 @@
       "type": "string",
       "default": "",
       "validation": "",
-      "group_name": "security",
+      "group_name": "Security",
       "required": true,
       "secured": false,
       "hidden": false,
       "immutable": false,
       "immutable_after_create": false
     }
+    
   ],
   "template_output_params": [  {
     "name": "web_server_ip_address",
