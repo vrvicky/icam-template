@@ -27,6 +27,20 @@
   "output_groups": [ ],
   "template_input_params": [
     {
+      "name": "aws_region",
+      "label": "Aws Region",
+      "description": "Generated",
+      "type": "string",
+      "default": "us-west-1",
+      "validation": "",
+      "group_name": "",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
       "name": "web-server_ami",
       "label": "Web Server Ami",
       "description": "Generated",

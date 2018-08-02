@@ -5,7 +5,11 @@
 #####################################################################
 
 
-
+variable "aws_region" {
+  type = "string"
+  description = "Generated"
+ default     = "us-west-1"
+}
 variable "web-server_ami" {
   type = "string"
   description = "Generated"
