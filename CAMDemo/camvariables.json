@@ -27,48 +27,6 @@
   "output_groups": [ ],
   "template_input_params": [
     {
-      "name": "aws_access_id",
-      "label": "Aws Access Id",
-      "description": "Generated",
-      "type": "string",
-      "default": "",
-      "validation": "",
-      "group_name": "instances",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
-    },
-    {
-      "name": "aws_secret_key",
-      "label": "Aws Secret Key",
-      "description": "Generated",
-      "type": "string",
-      "default": "",
-      "validation": "",
-      "group_name": "instances",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
-    },
-    {
-      "name": "region",
-      "label": "Region",
-      "description": "Generated",
-      "type": "string",
-      "default": "",
-      "validation": "",
-      "group_name": "instances",
-      "required": true,
-      "secured": false,
-      "hidden": false,
-      "immutable": false,
-      "immutable_after_create": false
-    },
-    {
       "name": "web-server_ami",
       "label": "Web Server Ami",
       "description": "Generated",
