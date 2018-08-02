@@ -31,7 +31,7 @@
       "label": "Aws Region",
       "description": "Generated",
       "type": "string",
-      "default": "us-west-1",
+      "default": "us-west-2",
       "validation": "",
       "group_name": "",
       "required": true,

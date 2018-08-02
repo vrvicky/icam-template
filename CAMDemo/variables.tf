@@ -8,7 +8,7 @@
 variable "aws_region" {
   type = "string"
   description = "Generated"
- default     = "us-west-1"
+ default     = "us-west-2"
 }
 variable "web-server_ami" {
   type = "string"
