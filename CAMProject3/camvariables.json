@@ -89,7 +89,7 @@
       "type": "string",
       "default": "",
       "validation": "",
-      "group_name": "",
+      "group_name": "aws_instance_networks",
       "required": true,
       "secured": false,
       "hidden": false,
